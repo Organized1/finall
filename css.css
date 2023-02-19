@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main a{
+    color: rgb(67, 127, 255);
+}
+main a:hover
+{
+    transition: 0.3s;
+    transform: scale(1.1);
+    color:rgb(247, 136, 158);
+}
+
+.nv a:hover{
+    border-left:solid 1px ;
+    border-right:solid 1px ;
+    border-color: rgb(0, 183, 255);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.cor:hover{
+transform: scale(1.2);
+cursor:zoom-in;
+transition: 0.9s;
+text-decoration:dotted;
+text-decoration-color: hotpink;
+}
